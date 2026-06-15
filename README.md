@@ -115,12 +115,24 @@ String password = "your_password";
 ## 📸 Screenshots
 
 * 🔐 Login Page
-* 📝 Registration Page
-* 🏠 User Dashboard
-* 💳 Loan Application Form
-* 📊 Loan Status Page
-* 🛠️ Admin Dashboard
+<img width="1909" height="918" alt="Image" src="https://github.com/user-attachments/assets/0b30b844-5b87-4409-9a88-a6a04d381fdc" />
 
+* 📝 Registration Page
+<img width="1905" height="908" alt="Image" src="https://github.com/user-attachments/assets/aa9180ea-b6db-4e6a-8e31-093262635cff" />
+
+* 🏠 User Dashboard
+<img width="1889" height="907" alt="Image" src="https://github.com/user-attachments/assets/b826e9a0-9912-467f-a25a-5f059d0ca4e5" />
+
+* 💳 Loan Application Form
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/77e429d2-ba42-4e9c-991c-a0b88ccfa408" />
+
+* 📊 Loan Status Page
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b038088c-f419-4672-8307-106a4f034570" />
+
+* 🛠️ Admin Dashboard
+<img width="1918" height="812" alt="Image" src="https://github.com/user-attachments/assets/bb50d79b-b3a0-4b04-a174-ba3875e6171d" />
+
+<img width="1901" height="813" alt="Image" src="https://github.com/user-attachments/assets/7446957f-2ea6-47cb-a947-19d5d806c000" />
 ---
 
 ## 🎯 Future Enhancements
