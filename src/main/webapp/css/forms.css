@@ -1,0 +1,368 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#EEF2F7;
+display:flex;
+min-height:100vh;
+}
+
+.sidebar{
+width:280px;
+background:#17233C;
+padding:20px;
+}
+
+.logo{
+color:white;
+font-size:32px;
+font-weight:700;
+margin-bottom:50px;
+}
+
+.sidebar a{
+display:block;
+text-decoration:none;
+color:white;
+padding:16px 20px;
+margin-bottom:15px;
+border-radius:12px;
+font-size:18px;
+}
+
+.sidebar a:hover,
+.active{
+background:#2F63E0;
+}
+
+.main-content{
+flex:1;
+padding:40px;
+}
+
+.page-title{
+font-size:55px;
+color:#1D2B4F;
+margin-bottom:10px;
+}
+
+.page-subtitle{
+font-size:20px;
+color:#6B7280;
+margin-bottom:40px;
+}
+
+.form-card{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+.form-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:25px;
+}
+
+.form-group{
+display:flex;
+flex-direction:column;
+}
+
+.form-group label{
+font-size:16px;
+font-weight:600;
+margin-bottom:10px;
+color:#374151;
+}
+
+.form-group input{
+padding:15px;
+border:1px solid #D5DCE6;
+border-radius:12px;
+font-size:16px;
+background:#F8FAFC;
+}
+
+.full-width{
+grid-column:1 / span 2;
+}
+
+.submit-btn{
+margin-top:30px;
+padding:16px 35px;
+border:none;
+background:#2F63E0;
+color:white;
+font-size:18px;
+font-weight:600;
+border-radius:12px;
+cursor:pointer;
+}
+
+.submit-btn:hover{
+background:#1F4FC7;
+}
+.form-group select{
+padding:15px;
+border:1px solid #D5DCE6;
+border-radius:12px;
+font-size:16px;
+background:#F8FAFC;
+}
+.form-group textarea{
+padding:15px;
+border:1px solid #D5DCE6;
+border-radius:12px;
+font-size:16px;
+background:#F8FAFC;
+resize:none;
+}
+.submit-container{
+margin-top:30px;
+text-align:center;
+}
+.emi-card{
+margin-top:30px;
+background:#F8FAFC;
+padding:25px;
+border-radius:15px;
+border:1px solid #D5DCE6;
+text-align:center;
+}
+
+.emi-card h3{
+color:#6B7280;
+margin-bottom:10px;
+}
+
+.emi-card h1{
+font-size:42px;
+color:#16A34A;
+}
+
+.submit-container{
+margin-top:30px;
+text-align:center;
+}
+
+.submit-btn{
+min-width:220px;
+}
+.form-group select,
+.form-group textarea{
+padding:15px;
+border:1px solid #D5DCE6;
+border-radius:12px;
+font-size:16px;
+background:#F8FAFC;
+width:100%;
+}
+
+.form-group textarea{
+resize:none;
+}
+
+.emi-card{
+margin-top:30px;
+background:#F8FAFC;
+padding:25px;
+border-radius:15px;
+border:1px solid #D5DCE6;
+text-align:center;
+}
+
+.emi-card h3{
+color:#6B7280;
+font-size:18px;
+font-weight:500;
+}
+
+.submit-container{
+margin-top:30px;
+text-align:center;
+}
+
+.submit-btn{
+min-width:220px;
+padding:16px 35px;
+border:none;
+background:#2F63E0;
+color:white;
+font-size:18px;
+font-weight:600;
+border-radius:12px;
+cursor:pointer;
+}
+
+.submit-btn:hover{
+background:#1F4FC7;
+}/* ========================= */
+/* Tablet View */
+/* ========================= */
+
+@media (max-width: 992px){
+
+.sidebar{
+width:220px;
+}
+
+.logo{
+font-size:28px;
+}
+
+.main-content{
+padding:25px;
+}
+
+.page-title{
+font-size:42px;
+}
+
+.page-subtitle{
+font-size:18px;
+}
+
+.form-card{
+padding:30px;
+}
+
+.form-grid{
+gap:20px;
+}
+
+}
+
+/* ========================= */
+/* Mobile View */
+/* ========================= */
+
+@media (max-width: 768px){
+
+body{
+flex-direction:column;
+}
+
+.sidebar{
+width:100%;
+padding:15px;
+}
+
+.logo{
+text-align:center;
+margin-bottom:20px;
+}
+
+.sidebar a{
+font-size:16px;
+margin-bottom:10px;
+}
+
+.main-content{
+padding:20px;
+}
+
+.page-title{
+font-size:32px;
+}
+
+.page-subtitle{
+font-size:16px;
+margin-bottom:25px;
+}
+
+.form-card{
+padding:20px;
+}
+
+.form-grid{
+grid-template-columns:1fr;
+gap:18px;
+}
+
+.full-width{
+grid-column:auto;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+font-size:15px;
+padding:14px;
+}
+
+.emi-card h1{
+font-size:30px;
+}
+
+.emi-card h3{
+font-size:16px;
+}
+
+.submit-btn{
+width:100%;
+min-width:unset;
+}
+
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+
+@media (max-width: 480px){
+
+.main-content{
+padding:15px;
+}
+
+.logo{
+font-size:24px;
+}
+
+.page-title{
+font-size:28px;
+}
+
+.page-subtitle{
+font-size:14px;
+}
+
+.form-card{
+padding:15px;
+}
+
+.form-group label{
+font-size:14px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea{
+font-size:14px;
+padding:12px;
+}
+
+.emi-card{
+padding:18px;
+}
+
+.emi-card h1{
+font-size:26px;
+}
+
+.emi-card h3{
+font-size:14px;
+}
+
+.submit-btn{
+padding:14px;
+font-size:16px;
+}
+
+}

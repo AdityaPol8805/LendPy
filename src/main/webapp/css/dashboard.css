@@ -1,0 +1,252 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#EEF2F7;
+display:flex;
+min-height:100vh;
+}
+
+.sidebar{
+width:280px;
+background:#17233C;
+color:white;
+padding:20px;
+}
+
+.logo{
+font-size:32px;
+font-weight:700;
+margin-bottom:50px;
+}
+
+.sidebar a{
+display:block;
+text-decoration:none;
+color:white;
+padding:16px 20px;
+margin-bottom:15px;
+border-radius:12px;
+font-size:20px;
+}
+
+.sidebar a:hover,
+.active{
+background:#2F63E0;
+}
+
+.main-content{
+flex:1;
+padding:40px;
+}
+
+.header h1{
+font-size:60px;
+color:#1D2B4F;
+}
+
+.header p{
+font-size:22px;
+color:#6B7280;
+margin-top:10px;
+}
+
+.cards{
+display:flex;
+gap:25px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+width:250px;
+box-shadow:0 10px 20px rgba(0,0,0,0.05);
+}
+
+.card h3{
+color:#4B5563;
+margin-bottom:15px;
+}
+
+.card h2{
+color:#2F63E0;
+font-size:45px;
+}
+
+.table-box{
+margin-top:40px;
+background:white;
+padding:25px;
+border-radius:20px;
+box-shadow:0 10px 20px rgba(0,0,0,0.05);
+overflow-x:auto;
+}
+
+.table-box h2{
+margin-bottom:20px;
+color:#1D2B4F;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+min-width:600px;
+}
+
+th{
+background:#2B469B;
+color:white;
+padding:15px;
+text-align:left;
+}
+
+td{
+padding:15px;
+border-bottom:1px solid #ddd;
+}
+
+/* ========================= */
+/* Tablet View */
+/* ========================= */
+
+@media (max-width: 992px){
+
+.sidebar{
+width:220px;
+}
+
+.logo{
+font-size:28px;
+}
+
+.sidebar a{
+font-size:18px;
+padding:14px 16px;
+}
+
+.main-content{
+padding:25px;
+}
+
+.header h1{
+font-size:42px;
+}
+
+.header p{
+font-size:18px;
+}
+
+.card{
+width:220px;
+}
+
+.card h2{
+font-size:36px;
+}
+
+}
+
+/* ========================= */
+/* Mobile View */
+/* ========================= */
+
+@media (max-width: 768px){
+
+body{
+flex-direction:column;
+}
+
+.sidebar{
+width:100%;
+padding:15px;
+}
+
+.logo{
+text-align:center;
+margin-bottom:20px;
+}
+
+.sidebar a{
+margin-bottom:10px;
+font-size:16px;
+}
+
+.main-content{
+padding:20px;
+}
+
+.header h1{
+font-size:32px;
+}
+
+.header p{
+font-size:16px;
+}
+
+.cards{
+flex-direction:column;
+}
+
+.card{
+width:100%;
+}
+
+.card h2{
+font-size:32px;
+}
+
+.table-box{
+overflow-x:auto;
+}
+
+}
+
+/* ========================= */
+/* Small Mobile */
+/* ========================= */
+
+@media (max-width: 480px){
+
+.main-content{
+padding:15px;
+}
+
+.header h1{
+font-size:28px;
+}
+
+.header p{
+font-size:14px;
+}
+
+.logo{
+font-size:24px;
+}
+
+.sidebar a{
+font-size:15px;
+padding:12px;
+}
+
+.card{
+padding:20px;
+}
+
+.card h2{
+font-size:28px;
+}
+
+th,
+td{
+padding:10px;
+font-size:14px;
+}
+
+}
