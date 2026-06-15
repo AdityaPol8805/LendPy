@@ -1,4 +1,4 @@
-# 💰 Loan Management System
+# 💰 LendPy - Loan Management System
 
 ## 📖 Overview
 
@@ -112,38 +112,6 @@ String password = "your_password";
 
 ---
 
-## ⚡ Installation & Setup
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/your-username/LoanManagementSystem.git
-```
-
-### 2️⃣ Import Project
-
-Import the project into Eclipse IDE.
-
-### 3️⃣ Configure Server
-
-Set up Apache Tomcat 10.
-
-### 4️⃣ Configure Database
-
-Create and connect the MySQL database.
-
-### 5️⃣ Run Project
-
-Deploy and run the project on Tomcat Server.
-
-### 6️⃣ Open in Browser
-
-```text
-http://localhost:8080/LoanManagementSystem
-```
-
----
-
 ## 📸 Screenshots
 
 * 🔐 Login Page
@@ -171,9 +139,11 @@ http://localhost:8080/LoanManagementSystem
 **Aditya**
 
 ---
+## 💰 Project Summary
 
-## 📜 License
+The Loan Management System is a web-based application developed using Java Full Stack technologies that simplifies the loan application and approval process. The system allows users to register, log in securely, apply for various loan types, calculate EMI, and track the status of their loan applications in real time.
 
-This project is developed for educational and learning purposes.
+Administrators can manage loan requests through a dedicated dashboard, where they can review applications, approve or reject loans, and update loan statuses. The application uses Java Servlets and JDBC for backend processing, JSP for dynamic web pages, and MySQL for secure data storage.
 
-⭐ If you found this project useful, consider giving it a star on GitHub!
+The project aims to automate traditional loan management processes, improve efficiency, reduce manual paperwork, and provide a user-friendly platform for both customers and administrators.
+
