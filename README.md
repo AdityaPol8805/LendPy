@@ -131,13 +131,6 @@ String password = "your_password";
 * 💸 Payment Gateway Integration
 * 📑 PDF Report Generation
 * 🔗 REST API Integration
-
----
-
-## 👨‍💻 Author
-
-**Aditya**
-
 ---
 ## 💰 Project Summary
 
